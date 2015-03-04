@@ -1,0 +1,314 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Sintony', sans-serif; 
+	color: white;
+	height: 100vh;
+}
+
+.flex-container{
+	display: flex;
+	-webkit-flex-flow; row wrap;
+	justify-content: space-between;
+}
+
+#menu{
+	background-color: rgba(0,0,0,.8);
+	width: 25%;
+}
+
+#map{
+	width: 75%;
+}
+
+h1{
+	font-weight: 700;
+	font-style: normal;
+	margin-left: .5em;
+	font-size: 2em;
+}
+h2{
+	font-weight: 400;
+	font-size: 1em;
+	font-style: italic;
+	margin-left: 1.5em;
+
+}
+h3{
+	font-weight: 700;
+	font-style: normal;
+	font-size: 1.2em;
+	color: #95A5A6;
+	text-align: center;
+}
+ul{
+
+	padding-left: 0;
+}
+ul li{
+
+	font-size: 1em;
+	list-style: none;
+	border-bottom: .1em solid white; 
+	padding-left: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #95A5A6;
+    text-decoration: none;
+    -ms-transition-property: color;
+    -ms-transition-duration: .5s;
+    -moz-transition-property: color;
+    -moz-transition-duration: .5s;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .5s;
+}
+
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.hidden{
+	display: none;
+}
+
+.submenu{
+	margin-left: -1em;
+	margin-top: .5em;
+	margin-bottom: .5em;
+
+}
+
+.submenu li{
+	padding-left: 3em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-bottom: .1em solid #89C4F4; 
+}
+
+.submenu li a:link {
+    color: #89C4F4;
+
+}
+
+
+.submenu li a:visited {
+    color: #89C4F4;
+
+}
+
+
+.submenu li a:hover {
+    color: #2574A9;
+}
+
+
+.submenu li a:active {
+    color: #89C4F4;
+ 
+}
+
+.neighborhood:hover a:after{
+	visibility: visible;
+
+}
+
+.neighborhood a:after {
+	content: "102,458 Incidents";
+	visibility: hidden;
+	padding-left: 40%;
+}
+
+
+.offense:hover a:after {
+	visibility: visible;
+}
+
+.offense a:after {
+	content: "31,774 Incidents";
+	visibility: hidden;
+	padding-left:  40%;
+}
+
+.hitAndRun:hover a:after {
+	visibility: visible;
+}
+
+.hitAndRun a:after {
+	content: "28,220 Incidents";
+	visibility: hidden;
+	padding-left:  40%;
+}
+
+.dui:hover a:after {
+	visibility: visible;
+}
+
+.dui a:after {
+	content: "3,378 Incidents";
+	visibility: hidden;
+	padding-left: 55%;
+}
+
+.assault:hover a:after {
+	visibility: visible;
+}
+
+.assault a:after {
+	content: "152 Incidents";
+	visibility: hidden;
+
+	padding-left: 38%;
+}
+
+.homicide:hover a:after {
+	visibility: visible;
+}
+
+.homicide a:after {
+	content: "24 Incidents";
+	visibility: hidden;
+	padding-left: 38%;
+}
+
+.time:hover a:after {
+	visibility: visible;
+}
+
+.time a:after {
+	content: "102,458 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+
+.year2015:hover a:after {
+	visibility: visible;
+}
+
+.year2015 a:after {
+	content: "3,541 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+
+.year2014:hover a:after {
+	visibility: visible;
+}
+
+.year2014 a:after {
+	content: "21,937 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+
+.year2013:hover a:after {
+	visibility: visible;
+}
+
+.year2013 a:after {
+	content: "19,881 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+
+.year2012:hover a:after {
+	visibility: visible;
+}
+
+.year2012 a:after {
+	content: "19,560 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+
+.year2011:hover a:after {
+	visibility: visible;
+}
+
+.year2011 a:after {
+	content: "20,860 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+.year2010:hover a:after {
+	visibility: visible;
+}
+
+.year2010 a:after {
+	content: "16,679 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+.jan:hover a:after {
+	visibility: visible;
+}
+
+.jan a:after {
+	content: "9,117 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+.aug:hover a:after {
+	visibility: visible;
+}
+
+.aug a:after {
+	content: "9,021 Incidents";
+	visibility: hidden;
+	padding-left: 50%;
+}
+.sep:hover a:after {
+	visibility: visible;
+}
+
+.sep a:after {
+	content: "8,987 Incidents";
+	visibility: hidden;
+	padding-left: 20%;
+}
+
+.afternoon:hover a:after {
+	visibility: visible;
+}
+
+.afternoon a:after {
+	content: "24,787 Incidents";
+	visibility: hidden;
+	padding-left: 40%;
+}
+.lunch:hover a:after {
+	visibility: visible;
+}
+
+.lunch a:after {
+	content: "13,306 Incidents";
+	visibility: hidden;
+	padding-left: 40%;
+}
+.morning:hover a:after {
+	visibility: visible;
+}
+
+.morning a:after {
+	content: "10,458 Incidents";
+	visibility: hidden;
+	padding-left: 40%;
+}
+
+

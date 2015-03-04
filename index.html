@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
+	<title>Visualize Traffic Accidents in Denver</title>
+	<base target="neighborhood">
+</head>
+
+<body>
+<div class="flex-container">
+	<section class="flex-item" id="menu">
+		<h1>Visualize Traffic Accidents <br>in Denver Since 2010</h1>
+		<h2>By Glenna Xie</h2>
+		<ul>
+			<li class="category neighborhood"><a href="http://glennaxie.cartodb.com/viz/6b4bba36-c110-11e4-bf53-0e4fddd5de28/embed_map" target="map">Neighborhood</a>
+				<p class="submenu hidden">some text</p>
+
+			</li>
+			<li class="category offense"><a href="http://glennaxie.cartodb.com/viz/9bace96a-c080-11e4-9b09-0e4fddd5de28/embed_map" target="map">Offense Type</a>
+			</li>
+
+				<ul class="submenu hidden">
+					<li class="hitAndRun"><a href="http://glennaxie.cartodb.com/viz/c5d4f530-c124-11e4-b60c-0e853d047bba/embed_map" target=
+					"map">Hit-and-run</a></li>
+					<li class="dui"><a href="http://glennaxie.cartodb.com/viz/f52e23fa-c125-11e4-87ac-0e853d047bba/embed_map" target="map">DUI</a></li>
+					<li class="assault"><a href="http://glennaxie.cartodb.com/viz/31b38f7c-c126-11e4-9b31-0e4fddd5de28/embed_map" target="map">Vehicular Assault</a></li>
+					<li class="homicide"><a href="http://glennaxie.cartodb.com/viz/85d696c6-c126-11e4-aa68-0e4fddd5de28/embed_map" target="map">Vehicular Homicide</a></li>
+				</ul>
+
+			<li class="category time"><a href="http://glennaxie.cartodb.com/viz/27dbe7da-c20f-11e4-8c09-0e853d047bba/embed_map" target="map">Time</a></li>
+
+				<ul class="submenu hidden year">
+						<h3>By year</h3>
+						<li class="year2015"><a href="http://glennaxie.cartodb.com/viz/27dbe7da-c20f-11e4-8c09-0e853d047bba/embed_map" target=
+						"map">2015</a></li>
+						<li class="year2014"><a href="http://glennaxie.cartodb.com/viz/dd25b688-c210-11e4-859d-0e4fddd5de28/embed_map" target=
+						"map">2014</a></li>
+						<li class="year2013"><a href="http://glennaxie.cartodb.com/viz/2f629a6a-c211-11e4-b478-0e853d047bba/embed_map" target=
+						"map">2013</a></li>
+						<li class="year2012"><a href="http://glennaxie.cartodb.com/viz/6541d056-c211-11e4-945d-0e9d821ea90d/embed_map" target=
+						"map">2012</a></li>
+						<li class="year2011"><a href="http://glennaxie.cartodb.com/viz/9f8af580-c211-11e4-98db-0e9d821ea90d/embed_map" target=
+						"map">2011</a></li>
+						<li class="year2010"><a href="http://glennaxie.cartodb.com/viz/eb4ff40c-c211-11e4-9a97-0e0c41326911/embed_map" target=
+						"map">2010</a></li>
+
+						<h3>By Month: Top 3 Most Accident Occurrences</h3>
+						<li class="jan"><a href="http://glennaxie.cartodb.com/viz/27dbe7da-c20f-11e4-8c09-0e853d047bba/embed_map" target=
+						"map">January</a></li>
+						<li class="aug"><a href="http://glennaxie.cartodb.com/viz/dd25b688-c210-11e4-859d-0e4fddd5de28/embed_map" target=
+						"map">August</a></li>
+						<li class="sep"><a href="http://glennaxie.cartodb.com/viz/2f629a6a-c211-11e4-b478-0e853d047bba/embed_map" target=
+						"map">September & December</a></li>
+
+						<h3>By Time: Top 3 Most Accident Occurrences</h3>
+						<li class="afternoon"><a href="http://glennaxie.cartodb.com/viz/27dbe7da-c20f-11e4-8c09-0e853d047bba/embed_map" target=
+						"map">3pm to 6pm</a></li>
+						<li class="lunch"><a href="http://glennaxie.cartodb.com/viz/dd25b688-c210-11e4-859d-0e4fddd5de28/embed_map" target=
+						"map">12pm to 3pm</a></li>
+						<li class="morning"><a href="http://glennaxie.cartodb.com/viz/2f629a6a-c211-11e4-b478-0e853d047bba/embed_map" target=
+						"map">7am to 10am</a></li>
+						
+				</ul>
+				</ul>
+
+	
+		</ul>
+	</section>
+	<section class="flex-item" id="map"> 
+		<iframe name="map" width='100%' height='800' frameborder='0' src='http://glennaxie.cartodb.com/viz/6b4bba36-c110-11e4-bf53-0e4fddd5de28/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+	</section>
+</div>
+    <script src="accordion.js"></script>
+</body>
+
+</html>
