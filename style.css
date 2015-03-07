@@ -25,24 +25,25 @@ h1{
 	font-weight: 700;
 	font-style: normal;
 	margin-left: .5em;
-	font-size: 2em;
+	margin-right: .5em;
+	font-size: 180%;
 }
 h2{
 	font-weight: 400;
-	font-size: 1em;
+	font-size: 100%;
 	font-style: italic;
-	margin-left: 1.5em;
+	margin-left: 1em;
 
 }
 h3{
 	font-weight: 700;
 	font-style: normal;
-	font-size: 1.2em;
+	font-size: 110%;
 	color: #95A5A6;
 	text-align: center;
 }
 ul{
-
+	font-size: 85%;
 	padding-left: 0;
 }
 ul li{
@@ -132,7 +133,7 @@ a:active {
 .neighborhood a:after {
 	content: "102,458 Incidents";
 	visibility: hidden;
-	padding-left: 40%;
+	padding-left: 20%;
 }
 
 
@@ -143,7 +144,7 @@ a:active {
 .offense a:after {
 	content: "31,774 Incidents";
 	visibility: hidden;
-	padding-left:  40%;
+	padding-left:  25%;
 }
 
 .hitAndRun:hover a:after {
@@ -153,7 +154,7 @@ a:active {
 .hitAndRun a:after {
 	content: "28,220 Incidents";
 	visibility: hidden;
-	padding-left:  40%;
+	padding-left:  30%;
 }
 
 .dui:hover a:after {
@@ -163,7 +164,7 @@ a:active {
 .dui a:after {
 	content: "3,378 Incidents";
 	visibility: hidden;
-	padding-left: 55%;
+	padding-left: 40%;
 }
 
 .assault:hover a:after {
@@ -174,7 +175,7 @@ a:active {
 	content: "152 Incidents";
 	visibility: hidden;
 
-	padding-left: 38%;
+	padding-left: 20%;
 }
 
 .homicide:hover a:after {
@@ -184,7 +185,7 @@ a:active {
 .homicide a:after {
 	content: "24 Incidents";
 	visibility: hidden;
-	padding-left: 38%;
+	padding-left: 20%;
 }
 
 .time:hover a:after {
@@ -194,7 +195,7 @@ a:active {
 .time a:after {
 	content: "102,458 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 35%;
 }
 
 .year2015:hover a:after {
@@ -204,7 +205,7 @@ a:active {
 .year2015 a:after {
 	content: "3,541 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 
 .year2014:hover a:after {
@@ -214,7 +215,7 @@ a:active {
 .year2014 a:after {
 	content: "21,937 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 
 .year2013:hover a:after {
@@ -224,7 +225,7 @@ a:active {
 .year2013 a:after {
 	content: "19,881 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 
 .year2012:hover a:after {
@@ -234,7 +235,7 @@ a:active {
 .year2012 a:after {
 	content: "19,560 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 
 .year2011:hover a:after {
@@ -244,7 +245,7 @@ a:active {
 .year2011 a:after {
 	content: "20,860 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 .year2010:hover a:after {
 	visibility: visible;
@@ -253,7 +254,7 @@ a:active {
 .year2010 a:after {
 	content: "16,679 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 .jan:hover a:after {
 	visibility: visible;
@@ -262,7 +263,7 @@ a:active {
 .jan a:after {
 	content: "9,117 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 .aug:hover a:after {
 	visibility: visible;
@@ -271,7 +272,7 @@ a:active {
 .aug a:after {
 	content: "9,021 Incidents";
 	visibility: hidden;
-	padding-left: 50%;
+	padding-left: 30%;
 }
 .sep:hover a:after {
 	visibility: visible;
@@ -280,7 +281,7 @@ a:active {
 .sep a:after {
 	content: "8,987 Incidents";
 	visibility: hidden;
-	padding-left: 20%;
+	padding-left: 10%;
 }
 
 .afternoon:hover a:after {
@@ -290,7 +291,7 @@ a:active {
 .afternoon a:after {
 	content: "24,787 Incidents";
 	visibility: hidden;
-	padding-left: 40%;
+	padding-left: 30%;
 }
 .lunch:hover a:after {
 	visibility: visible;
@@ -299,7 +300,7 @@ a:active {
 .lunch a:after {
 	content: "13,306 Incidents";
 	visibility: hidden;
-	padding-left: 40%;
+	padding-left: 30%;
 }
 .morning:hover a:after {
 	visibility: visible;
@@ -308,7 +309,7 @@ a:active {
 .morning a:after {
 	content: "10,458 Incidents";
 	visibility: hidden;
-	padding-left: 40%;
+	padding-left: 30%;
 }
 
 
